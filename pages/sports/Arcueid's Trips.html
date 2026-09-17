@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcueid's Trips</title>
+    <style>
+        .stadium-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+        }
+
+        figure {
+            margin: 0;
+            text-align: center;
+        }
+
+        figure img {
+            display: block;
+            width: 100%;
+            height: 220px;
+            object-fit: contain;
+        }
+
+        figcaption {
+            margin-top: 8px;
+        }
+
+        @media (max-width: 700px) {
+            .stadium-grid {
+                grid-template-columns: 1fr;
+                max-width: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="../sports.html">Back to Sports</a>
+    <br><br>
+    <h1>Arcueid's Trips</h1>
+    <section class="stadium-grid" aria-label="Stadium trips">
+        <figure>
+            <img src="../../images/arcueidtrips/busch.png" alt="Busch Stadium">
+            <figcaption>Busch Stadium</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/arcueidtrips/camden.png" alt="Oriole Park at Camden Yards">
+            <figcaption>Oriole Park at Camden Yards</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/arcueidtrips/comerica.png" alt="Comerica Park">
+            <figcaption>Comerica Park</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/arcueidtrips/gabp.png" alt="Great American Ball Park">
+            <figcaption>Great American Ball Park</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/arcueidtrips/kauffman.png" alt="Kauffman Stadium">
+            <figcaption>Kauffman Stadium</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/arcueidtrips/nationals.png" alt="Nationals Park">
+            <figcaption>Nationals Park</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/arcueidtrips/progressive.png" alt="Progressive Field">
+            <figcaption>Progressive Field</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/arcueidtrips/rogerscentre.png" alt="Rogers Centre">
+            <figcaption>Rogers Centre</figcaption>
+        </figure>
+    </section>
+</body>
+</html>
